@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+ *{
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+ }
+ html{
+   font-size: 90.5%;
+ }
+ 
+ 
+ section{
+   padding:1rem 5%;
+ }
+ .header{
+    background: rgb(243, 204, 132);
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 6rem;
+    height: 2rem;
+    padding-top: 6px;
+    word-spacing: 1px;
+ }
+ .header-secound{
+    background: rgb(249, 223, 227);
+    text-align: center;
+    padding-right: 8rem;
+    height: 2rem;
+    padding-top: 6px;
+    word-spacing: 1px;
+   
+ }
+ .header-third{
+    background: rgb(228, 226, 226);
+    justify-content: space-between;
+    display: flex;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    height: 2rem;
+    padding-top: 6px;
+    word-spacing: 1px;
+    
+ }
+ .header-fourth{
+    background: white;
+    height: 4rem;
+    padding-top: 1.5rem;
+    word-spacing: 1px;
+ }
+ .right-icon{
+    padding-left:3rem;
+   
+ }
+ 
+ .middle-logo{
+    padding-left: 28rem;
+ }
+ .left-icon{
+   padding-left:35rem;
+   justify-content: space-between;
+   
+ }
+ .search{
+   justify-content: space-between;
+ }
+
+.body{
+width: 100%;
+height: fit-content;
+}
+.body .body-box{
+   display: flex;
+   gap: 3rem;
+   padding-top: 5rem;
+}
+.body .body-box .box{
+flex-direction: column;
+display: flex;
+}
+.second-heading{
+   padding-left: 9rem;
+   word-spacing: 1px;
+   padding-top: 2px;
+}
+video {
+   /** Simulationg background-size: cover */
+   object-fit: cover;
+   height: 50%;
+   width: 100%;
+ 
+   top: 0;
+   left: 0;
+ }
+.card{
+   display: flex;
+   margin-top: 2rem;
+   border-radius: 50px;
+}
+.picture-border .card-heading:hover{
+   background: #ccc;
+   box-shadow: #ccc;
+}
+.card-heading{
+padding-left: 10px;
+padding-top: 5px;
+}
+.card-container{
+   padding-top: 6px;
+   background: white;
+}
+.border {
+   border-bottom: 1px solid #ccc;
+   background-color: lightgrey;
+  
+ }
+ .border-down{
+   word-spacing: 1px;
+   letter-spacing: 2px;
+   padding-top: 30px;
+ }
+ .input{
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   margin-top: 15px;
+   border-color: #ccc;
+ }
+.link-step{
+   margin-top: 10rem;
+}
+.link-step ul{
+padding-top: 20px;
+
+}
+.border-three{
+   border-bottom: 1px solid black;
+   background-color: lightgrey;
+
+
+}
+.border-down-heading{
+   padding-top: 1rem;
+}
+.black-border{
+   height: 3rem; 
+   width: 20rem;
+   background: black;
+   color: white;
+   margin-left: 33rem;
+   padding-top: 13px;
+   margin-top: 5rem;
+   text-align: center;
+ 
+}
+.Best-selling{
+   text-align: center;
+   color: rgb(15, 15, 15);
+   padding-top: 3rem;
+}
+
+.btn{
+   
+}
+.customer-text{
+   text-align: center;
+}
+.customer-section{
+   margin-bottom: 3rem;
+}
+
+.footer-headline{
+   border-bottom: 1px solid rgb(10, 10, 10);
+  
+   padding-top: 3rem;
+}
+.email{
+   height: 3rem;
+   width:70%;
+   margin-left:1rem ;
+   letter-spacing: 1px;
+   margin-top:1rem;
+}
+.btn-subcrb{
+   height: 3rem;
+   width: 10rem;
+   background: black;
+   color: white;
+   letter-spacing: 1px;
+}
+.footer-icon{
+display: flex;
+
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    background: black;
+    text-align: center;
+    color: white;
+   
+}
+.footer .box-container{
+   display: flex;
+   gap: 3rem;
+ 
+}
+.footer .box-container .box h3{
+font-size: 1rem ;
+padding-bottom: 1.5rem;
+display: flex;
+
+}
+.footer .box-container .box a{
+   color:whitesmoke;
+   padding-bottom: 1rem;
+
+   
+}
+
+
+
+.footer p{
+    color: whitesmoke;
+    padding: 20px auto;
+    margin: 20px auto;
+}
+
+@media (max-width:450px) {
+   html{
+      font-size: 50%;
+   }
+
+}
+@media only screen and (max-width:450px) {
+   .header-fourth{
+      display: block;
+  }
+ 
+.body .body-box{
+   flex-direction: column;
+}
+.body-box .box{
+   margin: 20px auto;
+   width: 100%;
+}
+}
